@@ -1,0 +1,19 @@
+# asdf-elm
+
+[Elm](http://elm-lang.org/) plugin for [asdf](https://github.com/HashNuke/asdf)
+version manager.
+
+## Install
+
+```
+asdf plugin-add elm https://github.com/obmarg/asdf-elm.git
+```
+
+## Use
+
+Check [asdf](https://github.com/HashNuke/asdf) readme for instructions on how
+to install & manage versions of Elm.
+
+Installing Elm requires npm - you can use
+[asdf-nodejs](https://github.com/HashNuke/asdf-nodejs) to install this if you
+don't have it already.
