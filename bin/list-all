@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+versions_list=(
+  0.15.1-alpha
+  0.15.1-beta
+  0.15.1-beta2
+  0.15.1-beta3
+  0.15.1-beta4
+  0.15.1-beta5
+  0.15.1
+  0.16.0-alpha
+  0.16.0
+)
+
+versions=""
+
+for version in "${versions_list[@]}"
+do
+  versions="${versions} ${version}"
+done
+
+echo $versions
