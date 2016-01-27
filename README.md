@@ -3,6 +3,9 @@
 [Elm](http://elm-lang.org/) plugin for [asdf](https://github.com/HashNuke/asdf)
 version manager.
 
+This is an incredibly simple plugin that leverages npm & asdf itself for most
+of the hard work.
+
 ## Install
 
 ```
